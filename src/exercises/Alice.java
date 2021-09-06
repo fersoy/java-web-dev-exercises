@@ -17,5 +17,11 @@ public class Alice {
         } else {
             System.out.println(word + " is not in the Alice's first sentence");
         }
+
+        int index = aliceSentence.indexOf(word);
+        int length = word.length();
+        System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
+        String modifiedSentence = aliceSentence.replace(word, "");
+        System.out.println(modifiedSentence);
     }
 }
