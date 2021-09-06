@@ -20,7 +20,7 @@ public class Alice {
 
         int index = aliceSentence.indexOf(word);
         int length = word.length();
-        System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
+        System.out.println("Your word you are looking for, first appears at index " + index + ". Your word is " + length + " characters long.");
         String modifiedSentence = aliceSentence.replace(word, "");
         System.out.println(modifiedSentence);
     }
